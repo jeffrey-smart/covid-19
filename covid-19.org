@@ -1,0 +1,26 @@
+#+STARTUP: indent
+
+* Overview
+
+** import data for US
+- confirmed cases
+- deaths
+
+** apply filter (new column)
+- make new column (e.g., exclusion code)
+- 0 => keep
+- 1 => exclude for reason X
+- 10 => exclude for reason Y
+- 100 => exclude for reason Z
+- count exclusion codes (expect 10 ** n)
+
+** re-shape
+- each row is a date
+- each column is state + county
+
+** make summary table for latest date
+- total cases in data set
+- segment by exclusion code
+- segment by state (include number of counties and population)
+
+** write table to file

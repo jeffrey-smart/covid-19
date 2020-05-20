@@ -1,0 +1,19 @@
+# python
+__pycache__/
+
+# jupyter notebooks
+.ipynb_checkpoints/
+Untitled*.ipynb
+test-*.ipynb
+
+# visual studio code
+.vscode/
+
+# org mode
+*.org~
+
+# log files
+log/
+
+# mac os
+.DS_Store
